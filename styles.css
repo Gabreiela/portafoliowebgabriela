@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: monserat;
+    }
+  
+  body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .redes {
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+  }
+
+
+  .imagenes{
+    display:flex;
+  }
+
+
+.imagenfotos, .imagendiseño, .imagenedicion{
+  transition: filter 0.5s ease;
+}
+
+.imagenfotos:hover, .imagenedicion:hover{
+  filter: brightness(2);
+}
+.imagendiseño:hover{
+  filter: brightness(0.5);
+}
+
+.titulo{
+color: white;
+text-align: center;
+padding-top: 15%;
+}
+.titulo h1{
+  font-size: 5vw;
+}
+
+.diseño1{
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+
+.headerfotos{
+  position: fixed;
+}
+.descripcion{
+  float: right;
+  margin-left: auto;
+  font-size: 2vw;
+  margin-top: 10%;
+}
+@media (max-width:576px){
+  .descripcion{
+    font-size: 3vw;
+  }
+}
+  .text-center{
+background-color: #E2B055;
+color: rgb(255, 255, 255);
+margin: 0;
+  }
+  .sobremi{
+    margin-top: 6%;
+    font-size: 5vh;
+    text-align: justify;
+    margin-left: 5%;
+    align-items: center;
+    width: 80%;
+   
+  }
+
+ 
+
+footer { background-color: #E2B055; color: #E2B055;}
+
+
+
+.header-content{
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 20px;
+}
+/* STYLES FOTOS */
+.logo {
+  width: 15%;
+}
+.iniciodepagina{
+  text-align: center;
+  text-decoration: none;
+  font-size: 4vw;
+  color:rgb(255, 186, 57);
+  width: 15%;
+  margin-left: auto;
+  margin-top: 1.5%;
+}
+
+
+.paginamuestras{
+  text-align: center;
+  text-decoration: none;
+
+
+  width: 15%;
+  height: 80px;
+
+  margin-left: auto;
+  margin-top: 1.5%;
+}
+.paginamuestras p{
+  font-size: 4vw;
+  color:rgb(255, 255, 255);
+  margin-top: 1.5%;
+}
+.paginaedicion{
+  text-align: center;
+  text-decoration: none;
+  font-size: 4vw;
+  color:rgb(255, 255, 255);
+
+  width: 15%;
+
+  margin-left: auto;
+  margin-top: 1.5%;
+}
+.paginaedicion p{
+  font-size: 4vw;
+  color:rgb(255, 255, 255);
+  margin-top: 1.5%;
+}
+.galeriafotos{
+  margin-top:0;
+}
+/* .cajafotoprincipal{
+  height: 500px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .fotoprincipal{
+  width: 1500px;
+} */
+
+.piedepagina{
+  background-color:#E2B055;
+  display: flex;
+}
+
+.Contactame {
+  font-size: 5vh;
+  margin-left: 1%;
+}
+.Contactame  {
+  color: black;
+}
+.número {
+  font-size: 3vh;
+  padding-top: 1%
+
+}
+.número p{
+  color: rgb(255, 255, 255);
+}
+.instagram {
+  font-size: 5vh;
+}
+.instagram p{
+  color: rgb(245, 245, 245);
+}
+
+
+
+/* Pagina fotos */
+
+.iconodewhasa{
+  height: 65px;
+}
+.iconodeinsta{
+  height: 65px;
+}
+
+@font-face {
+  font-family: monserat;
+  src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.paginamuestras:hover{
+ animation-iteration-count: infinite;
+}
